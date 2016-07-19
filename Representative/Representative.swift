@@ -45,7 +45,7 @@ class Representative {
         let district = JSONdictionary[kDistrict] as? String,
         let phone = JSONdictionary[kPhone] as? String,
         let office = JSONdictionary[kOffice] as? String,
-            let link = JSONdictionary[kLink] as? String else { return nil }
+        let link = JSONdictionary[kLink] as? String else { return nil }
         
         self.name = name
         self.party = party

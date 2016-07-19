@@ -16,6 +16,11 @@
 		68BABCEE1CD9ACA4001AC1FB /* RepresentativeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68BABCED1CD9ACA4001AC1FB /* RepresentativeUITests.swift */; };
 		68BABCFC1CD9ACCC001AC1FB /* StateController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68BABCFB1CD9ACCC001AC1FB /* StateController.swift */; };
 		7268D1FC1D3D666D00026994 /* Representative.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7268D1FB1D3D666D00026994 /* Representative.swift */; };
+		7268D1FE1D3D6D1A00026994 /* NetworkController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7268D1FD1D3D6D1A00026994 /* NetworkController.swift */; };
+		7268D2001D3D9BEA00026994 /* RepresentativeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7268D1FF1D3D9BEA00026994 /* RepresentativeController.swift */; };
+		7268D2021D3DA2C900026994 /* StateListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7268D2011D3DA2C900026994 /* StateListTableViewController.swift */; };
+		7268D2041D3DA40C00026994 /* StateDetailTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7268D2031D3DA40C00026994 /* StateDetailTableViewController.swift */; };
+		7268D2061D3DA4B400026994 /* RepresentativeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7268D2051D3DA4B400026994 /* RepresentativeTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +56,11 @@
 		68BABCEF1CD9ACA4001AC1FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		68BABCFB1CD9ACCC001AC1FB /* StateController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StateController.swift; sourceTree = "<group>"; };
 		7268D1FB1D3D666D00026994 /* Representative.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Representative.swift; sourceTree = "<group>"; };
+		7268D1FD1D3D6D1A00026994 /* NetworkController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkController.swift; sourceTree = "<group>"; };
+		7268D1FF1D3D9BEA00026994 /* RepresentativeController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RepresentativeController.swift; sourceTree = "<group>"; };
+		7268D2011D3DA2C900026994 /* StateListTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StateListTableViewController.swift; sourceTree = "<group>"; };
+		7268D2031D3DA40C00026994 /* StateDetailTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StateDetailTableViewController.swift; sourceTree = "<group>"; };
+		7268D2051D3DA4B400026994 /* RepresentativeTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RepresentativeTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,7 +115,12 @@
 				68BABCFB1CD9ACCC001AC1FB /* StateController.swift */,
 				68BABCCF1CD9ACA4001AC1FB /* ViewController.swift */,
 				68BABCD11CD9ACA4001AC1FB /* Main.storyboard */,
+				7268D2031D3DA40C00026994 /* StateDetailTableViewController.swift */,
+				7268D2011D3DA2C900026994 /* StateListTableViewController.swift */,
+				7268D2051D3DA4B400026994 /* RepresentativeTableViewCell.swift */,
 				7268D1FB1D3D666D00026994 /* Representative.swift */,
+				7268D1FF1D3D9BEA00026994 /* RepresentativeController.swift */,
+				7268D1FD1D3D6D1A00026994 /* NetworkController.swift */,
 				68BABCD41CD9ACA4001AC1FB /* Assets.xcassets */,
 				68BABCD61CD9ACA4001AC1FB /* LaunchScreen.storyboard */,
 				68BABCD91CD9ACA4001AC1FB /* Info.plist */,
@@ -263,9 +278,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7268D1FE1D3D6D1A00026994 /* NetworkController.swift in Sources */,
+				7268D2021D3DA2C900026994 /* StateListTableViewController.swift in Sources */,
+				7268D2061D3DA4B400026994 /* RepresentativeTableViewCell.swift in Sources */,
+				7268D2041D3DA40C00026994 /* StateDetailTableViewController.swift in Sources */,
 				7268D1FC1D3D666D00026994 /* Representative.swift in Sources */,
 				68BABCD01CD9ACA4001AC1FB /* ViewController.swift in Sources */,
 				68BABCFC1CD9ACCC001AC1FB /* StateController.swift in Sources */,
+				7268D2001D3D9BEA00026994 /* RepresentativeController.swift in Sources */,
 				68BABCCE1CD9ACA4001AC1FB /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
