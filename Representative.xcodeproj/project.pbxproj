@@ -112,14 +112,10 @@
 			isa = PBXGroup;
 			children = (
 				68BABCCD1CD9ACA4001AC1FB /* AppDelegate.swift */,
-				68BABCFB1CD9ACCC001AC1FB /* StateController.swift */,
-				68BABCCF1CD9ACA4001AC1FB /* ViewController.swift */,
+				722F2C571D46A367008139B1 /* ViewController */,
 				68BABCD11CD9ACA4001AC1FB /* Main.storyboard */,
-				7268D2031D3DA40C00026994 /* StateDetailTableViewController.swift */,
-				7268D2011D3DA2C900026994 /* StateListTableViewController.swift */,
-				7268D2051D3DA4B400026994 /* RepresentativeTableViewCell.swift */,
-				7268D1FB1D3D666D00026994 /* Representative.swift */,
-				7268D1FF1D3D9BEA00026994 /* RepresentativeController.swift */,
+				722F2C581D46A372008139B1 /* Model */,
+				722F2C591D46A3A9008139B1 /* ModelController */,
 				7268D1FD1D3D6D1A00026994 /* NetworkController.swift */,
 				68BABCD41CD9ACA4001AC1FB /* Assets.xcassets */,
 				68BABCD61CD9ACA4001AC1FB /* LaunchScreen.storyboard */,
@@ -144,6 +140,34 @@
 				68BABCEF1CD9ACA4001AC1FB /* Info.plist */,
 			);
 			path = RepresentativeUITests;
+			sourceTree = "<group>";
+		};
+		722F2C571D46A367008139B1 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				68BABCCF1CD9ACA4001AC1FB /* ViewController.swift */,
+				7268D2031D3DA40C00026994 /* StateDetailTableViewController.swift */,
+				7268D2011D3DA2C900026994 /* StateListTableViewController.swift */,
+				7268D2051D3DA4B400026994 /* RepresentativeTableViewCell.swift */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
+		722F2C581D46A372008139B1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7268D1FB1D3D666D00026994 /* Representative.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		722F2C591D46A3A9008139B1 /* ModelController */ = {
+			isa = PBXGroup;
+			children = (
+				68BABCFB1CD9ACCC001AC1FB /* StateController.swift */,
+				7268D1FF1D3D9BEA00026994 /* RepresentativeController.swift */,
+			);
+			name = ModelController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
